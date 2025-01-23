@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer .footer-grid {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer h4 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+main {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.blog-overview h2, .single-post h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.blog-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.single-post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Genel Footer Stil */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer h4 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #00bcd4;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 0.5rem;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer button:hover {
+    background-color: #019aa3;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #bbb;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.footer-bottom ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.3s;
+}
+
+.footer-bottom ul li a:hover {
+    color: #fff;
+}
